@@ -1,6 +1,7 @@
 module.exports = {
   title: '뷰프레스 타이틀',
   description: '잘됐으면 좋겠다',
+  base: "/vuepress-playground/",
   dest: 'docs',
   head: [
     ['link', {
