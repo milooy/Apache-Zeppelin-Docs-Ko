@@ -5,6 +5,7 @@ title: Day 1
 # 타이틀 테스트
 
 const와 let 예약어는 ES6에서 사용하는 변수 선언 방식입니다.
+[데이원 HTML 링크](./day-one.html)
 
 ## let
 
@@ -15,6 +16,7 @@ let 예약어는 한번 선언하면 다시 선언할 수 없습니다.
 let a = 10;
 let a = 20; // Uncaught SyntaxError: Identifier 'a' has already been declared
 ```
+
 
 ## const
 

@@ -19,5 +19,12 @@ module.exports = {
         link: 'https://milooy.wordpress.com/2017/06/21/working-together-with-github-tutorial/'
       },
     ]
+  },
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@alias': 'tutorials'
+      }
+    }
   }
 }
