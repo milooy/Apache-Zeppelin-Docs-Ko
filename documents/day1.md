@@ -5,7 +5,7 @@ title: Day 1
 # 타이틀 테스트
 
 const와 let 예약어는 ES6에서 사용하는 변수 선언 방식입니다.
-[데이원 HTML 링크](./day-one.html)
+[데이원 HTML 링크](./day-one-folder/day-one.html)
 
 ## let
 
