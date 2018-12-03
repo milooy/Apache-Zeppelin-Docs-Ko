@@ -11,7 +11,7 @@ const guideSidebar = [
 ]
 
 module.exports = {
-  title: 'Apache Zeppelin Docs (Korean)',
+  title: 'Apache Zeppelin 사용자 가이드',
   description: 'Unofficial documentation of Apache Zeppelin(http://zeppelin.apache.org/)',
   base: "/Apache-Zeppelin-Docs-Ko/",
   dest: 'docs',
@@ -24,15 +24,14 @@ module.exports = {
   themeConfig: {
     sidebar: {
       '/quickstart/': [
-        '',
-        'day1',
+        'install',
         'day2'
       ],
     },
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Quick Start', link: '/quickstart/' },
-      { text: 'Go to Zeppelin', link: 'http://zeppelin.apache.org/' },
+      { text: 'Zeppelin이란?', link: '/' },
+      { text: '시작하기', link: '/quickstart/' },
+      { text: '공식 홈페이지', link: 'http://zeppelin.apache.org/' },
     ]
   },
   configureWebpack: {
