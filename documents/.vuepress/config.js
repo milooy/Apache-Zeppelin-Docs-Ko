@@ -1,23 +1,38 @@
+const guideSidebar = [
+  {
+    title: "Getting started",
+    collapsable: false,
+    children: [
+      '',
+      '/day1',
+      '/day2',
+    ]
+  },
+]
+
 module.exports = {
-  title: '뷰프레스 타이틀',
-  description: '잘됐으면 좋겠다',
-  base: "/vuepress-playground/",
+  title: 'Apache Zeppelin Docs (Korean)',
+  description: 'Unofficial documentation of Apache Zeppelin(http://zeppelin.apache.org/)',
+  base: "/Apache-Zeppelin-Docs-Ko/",
   dest: 'docs',
   head: [
     ['link', {
       rel: 'icon',
-      href: '/logo.png'
+      href: '/images/zeppelin_logo.png'
     }]
   ],
   themeConfig: {
-    sidebar: [
-      '/day1',
-      '/day2',
-    ],
-    nav: [{
-        text: '내 블로그',
-        link: 'https://milooy.wordpress.com/2017/06/21/working-together-with-github-tutorial/'
-      },
+    sidebar: {
+      '/quickstart/': [
+        '',
+        'day1',
+        'day2'
+      ],
+    },
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Quick Start', link: '/quickstart/' },
+      { text: 'Go to Zeppelin', link: 'http://zeppelin.apache.org/' },
     ]
   },
   configureWebpack: {
