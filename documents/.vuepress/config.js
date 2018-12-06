@@ -29,7 +29,7 @@ module.exports = {
       ],
     },
     nav: [
-      { text: 'Zeppelin이란?', link: '/' },
+      { text: 'Zeppelin이란?', link: '/index.html' },
       { text: '시작하기', link: '/quickstart/' },
       { text: '공식 홈페이지', link: 'http://zeppelin.apache.org/' },
     ]
