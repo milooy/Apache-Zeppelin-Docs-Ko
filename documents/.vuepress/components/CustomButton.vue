@@ -1,10 +1,13 @@
 <template>
-  <router-link to="link"><button>{{title}}</button></router-link>
+  <router-link :to="link"><button>{{title}}</button></router-link>
 </template>
 
 <script>
 export default {
-  props: ["title", "link"]
+  props: ["title", "link"],
+  created() {
+    console.log(this.title, this.link)
+  }
 };
 </script>
 

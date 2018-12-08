@@ -7,7 +7,7 @@
       </p>
       <div class="buttonContainer">
         <CustomButton title="시작하기" link="/quickstart/" />
-        <CustomButton title="다운로드" />
+        <CustomButton title="다운로드" link="/quickstart/" />
       </div>
     </div>
   </div>
