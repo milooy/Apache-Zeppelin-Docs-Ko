@@ -25,7 +25,7 @@ module.exports = {
     sidebar: {
       '/quickstart/': [
         'install',
-        'day2'
+        'explore_ui'
       ],
     },
     nav: [
