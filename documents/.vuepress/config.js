@@ -13,7 +13,7 @@ const guideSidebar = [
 module.exports = {
   title: 'Apache Zeppelin 사용자 가이드',
   description: 'Unofficial documentation of Apache Zeppelin(http://zeppelin.apache.org/)',
-  base: "/Apache-Zeppelin-Docs-Ko/",
+  // base: "/Apache-Zeppelin-Docs-Ko/",
   dest: 'docs',
   head: [
     ['link', {
