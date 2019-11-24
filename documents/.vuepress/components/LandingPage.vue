@@ -58,17 +58,20 @@
         </div>
       </div>
     </Section>
+    <SectionWhatsNew />
   </div>
 </template>
 
 <script>
 import CustomButton from "./CustomButton.vue";
 import Section from "./Section.vue";
+import SectionWhatsNew from "./SectionWhatsNew.vue";
 
 export default {
   components: {
     CustomButton,
-    Section
+    Section,
+    SectionWhatsNew
   }
 };
 </script>
