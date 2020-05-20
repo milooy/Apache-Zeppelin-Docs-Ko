@@ -25,7 +25,11 @@ module.exports = {
     sidebar: {
       '/quickstart/': [
         'install',
-        'explore_ui'
+        'explore_ui',
+        'tutorial',
+        'spark-with-zeppelin',
+        'sql-with-zeppelin',
+        'python-with-zeppelin',
       ],
     },
     nav: [
